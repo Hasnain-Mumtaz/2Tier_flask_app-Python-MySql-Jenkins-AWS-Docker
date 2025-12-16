@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Pushing Image') {
             steps {
-                echo 'Pushing Image to Docker Hub'
+                echo 'Pushing Image to Docker Hub. Here i did not really push image, but you can push and change the name of the image in docker-compose file and continue . . .'
             }
         }
         stage('Deploy') {
